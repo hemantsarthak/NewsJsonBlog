@@ -4,7 +4,8 @@ const searchForm = document.querySelector('.search');
 
 const renderPosts = async (term) => {
   console.log(term);
-  let uri = 'http://localhost:3000/posts?_sort=likes&_order=desc';
+  let uri = 'http://localhost:3000/posts?_sort=likes&_order=dsec';
+  //let uri = 'http://localhost:3000/posts?_order=asec';
   if (term) {
     uri += `&q=${term}`
   }

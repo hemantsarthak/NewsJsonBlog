@@ -19,7 +19,7 @@ nav h1 {
 nav a {
   color: white;
   text-decoration: none;
-  background: #36cca2;
+  background: #2c4d6e;
   padding: 10px;
   border-radius: 10px;
 }
@@ -52,5 +52,5 @@ textarea {
   margin-top: 0;
 }
 .post a {
-  color: #36cca2;
+  color: #2c4d6e;
 }
